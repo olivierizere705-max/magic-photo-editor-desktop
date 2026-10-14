@@ -1,0 +1,11 @@
+# Do not edit manually
+# Configuration for git attributes
+src/*.astro linguist-detectable
+*.html linguist-vendored
+*.md linguist-documentation
+*.gif binary
+*.json linguist-detectable=false
+
+*.jpeg binary
+go.sum linguist-generated
+node_modules/* linguist-vendored
